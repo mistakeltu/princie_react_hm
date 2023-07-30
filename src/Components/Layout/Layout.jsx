@@ -1,5 +1,7 @@
 import "../Layout/layout.css";
+import "../Search-bar/search.css";
 import Nav from "../Nav/Nav";
+import Search from "../Search-bar/Search";
 
 function Layout() {
   return (
@@ -9,7 +11,9 @@ function Layout() {
           <Nav />
         </div>
         <div className="main-content">
-          <div className="search-bar"></div>
+          <div className="search-bar">
+            <Search />
+          </div>
           <div className="welcome"></div>
           <div className="info-menu">
             <div className="net-profit"></div>

@@ -8,7 +8,6 @@ import Icon7 from "../Img/icon7.png";
 import Icon8 from "../Img/icon8.png";
 import Icon9 from "../Img/icon9.png";
 import Icon10 from "../Img/icon10.png";
-import Arrdown from "../Img/arrdown.png";
 import Num2 from "../Img/num2.png";
 import Num11 from "../Img/num11.png";
 import Dark from "../Img/dark.png";
