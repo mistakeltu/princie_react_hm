@@ -5,8 +5,46 @@
 }
 
 .info-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   width: 370px;
   height: 250px;
   background-color: #f9f9f9;
   border-radius: 50px;
+}
+
+.container-inside {
+  margin-left: 20px;
+}
+
+.burbulas {
+  width: 40px;
+  height: 40px;
+  background-color: #aaaaaa;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.burbulas:hover {
+  background-color: #12a5bc;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+hr {
+  width: 90%;
+  margin: 0;
+  opacity: 40%;
+}
+
+.name {
+  color: #aaaaaa;
+  font-size: 18px;
 }

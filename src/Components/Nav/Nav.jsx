@@ -11,6 +11,7 @@ import Icon10 from "../Img/icon10.png";
 import Num2 from "../Img/num2.png";
 import Num11 from "../Img/num11.png";
 import Dark from "../Img/dark.png";
+import { FaAngleDown } from "react-icons/fa";
 
 function Nav() {
   return (
@@ -45,6 +46,9 @@ function Nav() {
           <img src={Icon6} alt="Logo" className="img" />
           <a href="###" className="tag">
             Analytics
+            <FaAngleDown
+              style={{ color: "#aaaaaa", fontSize: "1.2em", marginLeft: 150 }}
+            />
           </a>
         </div>
         <div className="nav-btn">
