@@ -1,10 +1,13 @@
-import "./layout.css";
+import "../Layout/layout.css";
+import Nav from "../Nav/Nav";
 
 function Layout() {
   return (
     <body>
       <main className="main-grid">
-        <div className="side-menu"></div>
+        <div className="side-menu">
+          <Nav />
+        </div>
         <div className="main-content">
           <div className="search-bar"></div>
           <div className="welcome"></div>
