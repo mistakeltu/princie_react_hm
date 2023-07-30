@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+.main-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 0.8fr 4fr;
+  height: 180px;
+  margin: 1%;
+}
+
+.main-content {
+  display: grid;
+  gap: 1rem;
+}
+
+.side-menu {
+  background-color: aqua;
+  width: 100%;
+}
+
+.search-bar {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+}
+
+.welcome {
+  background-color: crimson;
+  width: 100%;
+  height: 150px;
+}
+
+.info-menu {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+
+.main-info {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.net-profit {
+  background-color: black;
+  height: 100px;
+}
+
+.store {
+  background-color: black;
+}
+
+.product {
+  background-color: black;
+}
+
+.visitor {
+  background-color: black;
+}
+
+.monthly {
+  background-color: rgb(206, 68, 68);
+  height: 250px;
+}
+
+.selling-product {
+  background-color: rgb(51, 144, 101);
+}
