@@ -7,14 +7,14 @@
 .cont {
   position: absolute;
   top: 566px;
-  left: 400px;
+  left: 350px;
   padding: 25px 0 0 25px;
 }
 
 .cont2 {
   position: absolute;
   top: 635px;
-  left: 1000px;
+  left: 900px;
   padding: 25px 0 0 25px;
 }
 
@@ -28,6 +28,7 @@
 
 .diagrama {
   position: absolute;
-  top: 850px;
-  left: 420px;
+  width: 40%;
+  top: 900px;
+  left: 400px;
 }

@@ -16,7 +16,7 @@ body {
 .main-grid {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: 0.8fr 4fr;
+  grid-template-columns: 1fr 4fr;
   height: 180px;
   margin-right: 1%;
 }

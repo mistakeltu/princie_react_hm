@@ -49,7 +49,7 @@ function Nav() {
           <a href="###" className="tag">
             Analytics
             <FaAngleDown
-              style={{ color: "#aaaaaa", fontSize: "1.2em", marginLeft: 150 }}
+              style={{ color: "#aaaaaa", fontSize: "1.2em", marginLeft: 100 }}
             />
           </a>
         </div>
