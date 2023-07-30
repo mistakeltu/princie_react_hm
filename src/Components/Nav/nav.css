@@ -8,15 +8,32 @@
   height: 60px;
 }
 
+.dark {
+  background-color: #232323;
+}
+
 .btn {
   border: none;
   cursor: pointer;
 }
 
-.nav-btn .img {
+.nav-btn .img,
+.nav-footer .img {
   margin-left: 20px;
   height: 20px;
   width: 20px;
+}
+
+.img2 {
+  margin-left: 13px;
+  height: 27px;
+  width: 27px;
+}
+
+.img3 {
+  margin-left: 13px;
+  height: 25px;
+  width: 45px;
 }
 
 .nav {
@@ -27,7 +44,8 @@
   gap: 10px;
 }
 
-.nav-btn a {
+.nav-btn a,
+.nav-footer a {
   text-decoration: none;
   color: #8c8c8c;
   margin-left: 10px;
@@ -35,4 +53,19 @@
 
 .nav-btn:hover {
   background-color: #232323;
+}
+
+.group {
+  margin-top: 50px;
+}
+
+.nav-footer {
+  margin-top: 250px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 90%;
+  border-radius: 50px;
+  color: #aaaaaa;
+  height: 60px;
 }
