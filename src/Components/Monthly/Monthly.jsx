@@ -1,5 +1,7 @@
 import { FaDollarSign } from "react-icons/fa";
 
+import Diagrama from "../Img/diagrama.png";
+
 function Monthly() {
   return (
     <>
@@ -24,6 +26,7 @@ function Monthly() {
               year
             </span>
           </div>
+          <img src={Diagrama} alt="" className="diagrama" />
         </div>
         <div className="cont2">
           <div className="img"></div>

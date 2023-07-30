@@ -29,7 +29,7 @@ body {
 .side-menu {
   background-color: #f9f9f9;
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .search-bar {
@@ -69,12 +69,12 @@ body {
   background-color: black;
 }
 
-/* .monthly {
-  background-color: rgb(206, 68, 68);
-  height: 400px;
-} */
+.monthly {
+  /* background-color: rgb(206, 68, 68); */
+  /* height: 100%; */
+}
 
-.selling-product {
+/* .selling-product {
   background-color: rgb(51, 144, 101);
   height: 400px;
-}
+} */

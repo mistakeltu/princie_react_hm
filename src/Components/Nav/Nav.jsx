@@ -11,11 +11,13 @@ import Icon10 from "../Img/icon10.png";
 import Num2 from "../Img/num2.png";
 import Num11 from "../Img/num11.png";
 import Dark from "../Img/dark.png";
+import Logo from "../Img/logo.png";
 import { FaAngleDown } from "react-icons/fa";
 
 function Nav() {
   return (
     <>
+      <img src={Logo} alt="" className="logo" />
       <div className="nav">
         <div className="nav-btn dark">
           <img src={Icon2} alt="Logo" className="img" />

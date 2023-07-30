@@ -1,7 +1,7 @@
 .news {
   background-color: #f9f9f9;
-  height: 450px;
   border-radius: 50px;
+  height: 800px;
 }
 
 .cont {
@@ -20,4 +20,14 @@
 
 .cont p {
   padding-top: 30px;
+}
+
+.top {
+  height: 100%;
+}
+
+.diagrama {
+  position: absolute;
+  top: 850px;
+  left: 420px;
 }
