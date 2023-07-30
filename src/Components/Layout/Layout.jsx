@@ -1,7 +1,11 @@
 import "../Layout/layout.css";
 import "../Search-bar/search.css";
+import "../Info/info.css";
+import "../Welcome/welcome.css";
 import Nav from "../Nav/Nav";
 import Search from "../Search-bar/Search";
+import Info from "../Info/Info";
+import Welcome from "../Welcome/Welcome";
 
 function Layout() {
   return (
@@ -14,12 +18,11 @@ function Layout() {
           <div className="search-bar">
             <Search />
           </div>
-          <div className="welcome"></div>
+          <div className="welcome">
+            <Welcome />
+          </div>
           <div className="info-menu">
-            <div className="net-profit"></div>
-            <div className="store"></div>
-            <div className="product"></div>
-            <div className="visitor"></div>
+            <Info />
           </div>
           <div className="main-info">
             <div className="monthly"></div>

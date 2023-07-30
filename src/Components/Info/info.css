@@ -1,0 +1,12 @@
+.main-container {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.info-container {
+  width: 370px;
+  height: 250px;
+  background-color: #f9f9f9;
+  border-radius: 50px;
+}

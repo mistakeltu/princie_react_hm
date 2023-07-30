@@ -1,0 +1,43 @@
+.welcome {
+  width: 100%;
+}
+
+p {
+  color: #aaaaaa;
+}
+
+.download span {
+  margin-left: 15px;
+}
+
+.month span {
+  margin-left: 35px;
+}
+
+.download {
+  position: absolute;
+  top: 127px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 8%;
+  border-radius: 50px;
+  color: #aaaaaa;
+  height: 60px;
+  background-color: #232323;
+}
+
+.month {
+  position: absolute;
+  top: 127px;
+  right: 200px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 8%;
+  border-radius: 50px;
+  color: #aaaaaa;
+  height: 60px;
+  background-color: #f9f9f9;
+}
