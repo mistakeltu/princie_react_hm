@@ -3,3 +3,21 @@
   height: 450px;
   border-radius: 50px;
 }
+
+.cont {
+  position: absolute;
+  top: 566px;
+  left: 450px;
+  padding: 25px 0 0 25px;
+}
+
+.cont2 {
+  position: absolute;
+  top: 635px;
+  left: 1000px;
+  padding: 25px 0 0 25px;
+}
+
+.cont p {
+  padding-top: 30px;
+}
