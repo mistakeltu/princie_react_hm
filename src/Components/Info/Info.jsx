@@ -1,6 +1,7 @@
 import React from "react";
 import Icon7 from "../Img/icon7.png";
 import { FaDollarSign } from "react-icons/fa";
+import { FaBug } from "react-icons/fa";
 
 function Info() {
   return (

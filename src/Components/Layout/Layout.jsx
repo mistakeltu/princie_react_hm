@@ -2,10 +2,12 @@ import "../Layout/layout.css";
 import "../Search-bar/search.css";
 import "../Info/info.css";
 import "../Welcome/welcome.css";
+import "../Monthly/monthly.css";
 import Nav from "../Nav/Nav";
 import Search from "../Search-bar/Search";
 import Info from "../Info/Info";
 import Welcome from "../Welcome/Welcome";
+import Monthly from "../Monthly/Monthly";
 
 function Layout() {
   return (
@@ -25,7 +27,9 @@ function Layout() {
             <Info />
           </div>
           <div className="main-info">
-            <div className="monthly"></div>
+            <div className="monthly">
+              <Monthly />
+            </div>
             <div className="selling-product"></div>
           </div>
         </div>
